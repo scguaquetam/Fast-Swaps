@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/sheva323/IstanbulHackathon">
-    <img src="images/Bannercover.png" alt="Logo" width="1500" height="220">
+    <img src="images/Bannercover.png" alt="Logo" width="1200" height="220">
   </a>
 
  <h3 align="center">The best way to get into crypto. Let's swap ⚡️</h3>
@@ -60,28 +60,32 @@
 
 # About The Project
 
-
-<br />
+<!--  br />
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-<br />
+<br /> -->
 
-<!-- Welcome to Join, a suite calendar that brings together tech and web3 event in one place. Our aim is to provide a centralized hub where you can stay informed about the latest happenings and never miss out on important community events online and IRL in Latinoamerica.
+Welcome to FastSwaps, we are a team dedicated to providing users with a secure and user-friendly experience for transferring tokens across blockchain networks. Our mission is to make crypto more accessible and inclusive, and we believe in simplifying the complexities associated with cross-chain transactions.
 
-Join allows you to discover, track, and receive decentralized notifications for all tech and web3 events of interest, our platform offers a comprehensive calendar to keep you in the loop. You can customize your preferences and receive timely notifications to ensure you stay up-to-date with the events that matter most to you. Our goal is to connect the community, foster collaboration, and empower individuals to contribute to the advancement of web3 technologies.
+FastSwaps is designed to facilitate seamless token transfers across various blockchain networks using a scalable rollup-to-rollup approach. Our platform empowers users to send tokens effortlessly from one network to another, all within the familiar environment of a Telegram pop-up, eliminating the need to connect your wallet directly. This not only enhances user convenience but also ensures a higher level of security, allowing individuals to navigate the crypto world with ease.
 
-And more tools for DAOs and communities coming.
 
-Let's join web3 revolution 😉
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
--->
+<!-- USAGE EXAMPLES -->
+
+Acá va el demo en video y un par de bundles
+
+<!--Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 # Built With
 
-Join is proudly supported by the following sponsors:
+FastSwaps is proudly supported by the following sponsors:
 
 * [![Polybase][Polybase.xyz]][Polybase-url]
 * [![Push][Push.org]][Push-url]
@@ -90,16 +94,18 @@ Join is proudly supported by the following sponsors:
 * [![ENS][Ens.domains]][Ens-url]
 * [![Filecoin][Filecoin.io]][Filecoin-url]
 
-In the development of the Join website, we used the following technologies:
+* uniswap V4
+* Cow Swap
+* 1Inch API 
+
+In the development of the FastSwaps website and telegram pop-up integration, we used the following technologies:
 
 
-* [![Next][Next.js]][Next-url]
-* [![Chakra][chakra-ui]][chakra-url]
+* [![Next][Next.js]][Next-url] | React
+* [![Chakra][chakra-ui]][chakra-url] | BOS Near
 * [![Node][Node.js]][Node-url]
 
 These powerful tools and frameworks have helped us create a seamless user experience and ensure the scalability and reliability of our platform.
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,19 +115,15 @@ These powerful tools and frameworks have helped us create a seamless user experi
 
 # Getting Started
 
-To get started with Join, follow these steps:
+To get started with FastSwaps, follow these steps:
 
-1. Login with your wallet on the Join website at [letsjoin.xyz](letsjoin.xyz)
+1. Explore the possible swaps and select your prefered one.
 
-2. Explore the homepage to discover upcoming tech and web3 events. You can filter events by category, location, and format to find the ones that interest you.
+2. Once your agree with the swap, write down the wallet where you're want to rececive and you're going to receive the funds.
 
-3. Click on an event to view more details such as the date, time, speakers, and description.
+3. A few minutes later, you're going to receive a Push Notification it's done, check your wallet.
 
-4. Stay updated with event notifications through your preferred channels, such as email or push notifications on your mobile device.
-
-5. Engage with the Join community by participating in discussions, networking with other attendees, and sharing your experiences.
-
-That's it! You are now ready to make the most of Join and stay connected with the tech and web3 event scene.
+That's it!. The best way to get into crypto.
 
 
 ## Installation 
@@ -130,11 +132,11 @@ To get started with Join installation, follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/sheva323/JOIN
+   git clone https://github.com/sheva323/IstanbulHackaton
    ```
 2. Navigate to the project directory:
    ```sh
-   cd join
+   cd IstanbulHackaton
    ```
 3. Install the necessary dependencies:
    ```js
@@ -151,128 +153,83 @@ To get started with Join installation, follow these steps:
 
 Please note that the above steps assume you have Node.js and npm (Node Package Manager) installed on your machine.
 
-Enjoy using Join and stay connected with the exciting world of tech and web3 events!
+Enjoy using FastSwaps and stay connected with the exciting world of tech and web3 events!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+<!-- CONTRIBUTING -->
 
-# Usage
+## Contributing
 
-Acá va el demo en video y un par de bundles
+At FastSwaps, we believe that contributions from the open-source community are what make our project truly amazing. We appreciate any contributions you make and welcome your ideas, suggestions, and enhancements.
 
-<!--Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+If you have a suggestion or improvement that would help make Join even better, here's how you can contribute:
 
-_For more examples, please refer to the [Documentation](https://example.com)_ -->
+1. Fork the project
+2. Create a new branch for your feature or enhancement
+   ```sh
+  $ git checkout -b feature/IstanbulHackaton
+   ```
+3. Make the commit with your changes
+   ```sh
+  $ git commit -m 'Add some IstanbulHackaton
+   ```
+4. Send the code to your remote branch
+   ```sh
+  $ git push origin feature/IstanbulHackaton
+   ```
+5. Open a Pull Request to submit your changes
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+We also encourage you to open an issue with the "enhancement" tag if you have any ideas or suggestions that you'd like to discuss with the community.
 
+Thank you for being part of the FastSwaps community and for helping us make a difference!
 
 
 <!-- ROADMAP -->
 # Roadmap
 
 
-- [x] Event reminder scheduling
-- [x] Event filtering by date: today, weekend, next week
-- [x] Dev tooling for loading fixtures on Polygon
-- [x] Aggregated event visualization across different platforms
-- [x] Gasless transactions
-- [ ] Add Protocol of Events (content-agnostic)
-- [ ] DAO Suit Tooling
-- [ ] Payment Method
-- [ ] Decentralized Mentoring
-- [ ] SDK for easily creating events from any source
-- [ ] After an event is completed, update with links to recordings, slides, repositories, or other historical resources. This allows users to look back in time and view events on-demand, having all the related resources in one place.
-- [ ] Community events incentives for creating events, updating a past event with recording links, reporting events with malicious or incorrect information, etc.
+- [x] Telegram integration
+- [x] Push notification and chat integration to connect with team
+- [x] Cross-chain swaps execution
+- [ ] More rollups aggregators and token support
+- [ ] Off-chain ramps
 
-
-
-See the [open issues](https://github.com/sheva323/JOIN/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTRIBUTING -->
-
-# Contributing
-
-
-<!--
-
-## 🤔 How to contribute
-
-**Follow the steps below**
-
-```bash
-# Create a branch with your feature
-$ git checkout -b your-feature
-
-# Make the commit with your changes
-$ git commit -m 'feat: Your new feature'
-
-# Send the code to your remote branch
-$ git push origin your-feature
-```
-
-After your pull request is merged, you can delete your branch
--->
-
-At Join, we believe that contributions from the open-source community are what make our project truly amazing. We appreciate any contributions you make and welcome your ideas, suggestions, and enhancements.
-
-If you have a suggestion or improvement that would help make Join even better, here's how you can contribute:
-
-1. Fork the Project
-2. Create a new branch for your feature or enhancement (`git checkout -b feature/JOIN`).
-3. Commit your Changes (`git commit -m 'Add some JOIN'`)
-4. Push to the Branch (`git push origin feature/JOIN`)
-5. Open a Pull Request to submit your changes.
-
-We also encourage you to open an issue with the "enhancement" tag if you have any ideas or suggestions that you'd like to discuss with the community.
-
-Thank you for being part of the Join community and for helping us make a difference!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-# License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+See the [open issues](https://github.com/sheva323/IstanbulHackaton/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
 
-# Contact
+### FastSwaps Team
 
-Push Chat Contact: [letsjoin.eth](https://app.push.org/chat)
+Angela Ocando - [@ocandocrypto](https://twitter.com/ocandocrypto) - ocandocrypto@proton.me
 <br />
-Project Link: [JOIN Github](https://github.com/sheva323/JOIN)
-<br />
-
-<br />
-
-
-### Join Team
-
-<br />
-
 Sebastian Guaqueta - [@scguaquetam](https://twitter.com/scguaquetam) - sheva3232@gmail.com
 <br />
-Angela Ocando - [@ocandocrypto](https://twitter.com/ocandocrypto) - ocandocrypto@gmail.com
+Jonathan Diaz - [@jontdiaz](https://twitter.com/jonthdiaz) - JonthDiaz@gmail.com
 <br />
-
+Felipe Marin - [@felipemarinWeb3](https://twitter.com/felipemarinWeb3) - luisf.maring0910@gmail.com
+<br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
+
 # Acknowledgments
 
-We would like to express our gratitude to the following resources that have been invaluable in the development of Join:
+We would like to express our gratitude to the following resources that have been invaluable in the development of FastSwaps:]
+
+BOS Docs
+CELO Docs
+Base Docs
+Nouns Designer Dos
+1inch Docs
+Cow Swaps Docs
+Gnosis Chain Docs 
 
 * [Push Protocol Docs](https://docs.push.org/hub/)
 * [Polybase Docs](https://polybase.xyz/docs/introduction)
@@ -284,28 +241,6 @@ We would like to express our gratitude to the following resources that have been
 These resources have provided valuable insights, tools, and inspiration throughout the development process. We appreciate their contributions to the web development community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ## 💻 Getting started
-
-### Requirements
-
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
-- [MetaMask Browser Extension](https://metamask.io/download.html)
-
-**Follow the steps below**
-
-```bash
-$ cd project
-
-# Install the dependencies
-$ yarn
-
-# Run the web app
-$ yarn start
-```
--->
-
 
 
 <!-- MARKDOWN LINKS  -->
