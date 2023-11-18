@@ -1,53 +1,291 @@
-<h1 align="center"> 
-	<img alt="Swap logo" src="https://github.com/eltonlazzarin/reactjs-uniswap-clone-interface/blob/main/readmeAssets/swapCoins.svg" height="67px" width="71px" />
-</h1>
+<a name="readme-top"></a>
 
-<h3 align="center">
-  Uniswap Clone Interface
-</h3>
+<div align="center">
 
-<p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/eltonlazzarin/reactjs-uniswap-clone-interface">
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+<!-- [![MIT License][license-shield]][license-url] -->
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eltonlazzarin/reactjs-uniswap-clone-interface">
+</div>
 
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eltonlazzarin/reactjs-uniswap-clone-interface">
+<!-- PROJECT INTRO -->
 
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/reactjs-uniswap-clone-interface">
+<br />
+<div align="center">
+  <a href="https://github.com/sheva323/IstanbulHackathon">
+    <img src="images/Bannercover.png" alt="Logo" width="1500" height="220">
+  </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/reactjs-uniswap-clone-interface">
-</p>
+ <h3 align="center">The best way to get into crypto. Let's swap ⚡️</h3>
 
-<p align="center">
-  <a href="#-about-the-project">About The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How To Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
-</p>
+  <p align="center">
 
-## 👨🏻‍💻 About the project
+  [Eth Global Istanbul 2023 Hackaton Project](https://ethglobal.com/events/istanbul)
 
-<p align="center">
-  <img src="https://github.com/eltonlazzarin/reactjs-uniswap-clone-interface/blob/main/readmeAssets/uniswapCloneInterface.gif">
-</p>
+  <a href="#-about-the-project">View the Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Report a Bug</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Request a Feature</a>&nbsp;&nbsp;&nbsp;
+   <!--
+    <a href="https://github.com/sheva323/IstanbulHackathon">View Demo</a>
+    -->
+  </p>
 
-<p>This project was developed with ReactJS, being a Dapp application (decentralized application) that replicates the Uniswap web application interface. With this interface it is possible to perform the real login connection with your MetaMask digital wallet previously installed in your browser.
+</div>
 
-After the connection is established with your MetaMask wallet, you will be able to read the address and, consequently, the ETH balance.</p>
+<br />
 
-## 🚀 Technologies
 
-Technologies that I used to develop this frontend app
+<!-- TABLE OF CONTENTS -->
 
-- [ReactJS](https://nodejs.org/en)
-- [Typescript](https://www.typescriptlang.org)
-- [Ethers.js](https://docs.ethers.io/v5)
-- [@usedapp/core](https://usedapp.io)
-- [@chakra-ui/react](https://chakra-ui.com)
-- [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
+# Table of Contents 
 
-## 💻 Getting started
+1. [About de Project](#about-the-project)
+    - [Built With](#built-with)
+2. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+3. [Usage](#usage)
+4. [Roadmap](#roadmap)
+5. [Contributing](#contributing)
+6. [Licence](#license)
+7. [Contact](#contact)
+8. [Acknowledgments](#acknowledgments)
+
+<br />
+
+
+<!-- ABOUT THE PROJECT -->
+
+# About The Project
+
+
+<br />
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<br />
+
+<!-- Welcome to Join, a suite calendar that brings together tech and web3 event in one place. Our aim is to provide a centralized hub where you can stay informed about the latest happenings and never miss out on important community events online and IRL in Latinoamerica.
+
+Join allows you to discover, track, and receive decentralized notifications for all tech and web3 events of interest, our platform offers a comprehensive calendar to keep you in the loop. You can customize your preferences and receive timely notifications to ensure you stay up-to-date with the events that matter most to you. Our goal is to connect the community, foster collaboration, and empower individuals to contribute to the advancement of web3 technologies.
+
+And more tools for DAOs and communities coming.
+
+Let's join web3 revolution 😉
+
+-->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+# Built With
+
+Join is proudly supported by the following sponsors:
+
+* [![Polybase][Polybase.xyz]][Polybase-url]
+* [![Push][Push.org]][Push-url]
+* [![NFT.STORAGE][NFT.Storage]][NFT-url]
+* [![Spheron][Spheron.network]][Spheron-url]
+* [![ENS][Ens.domains]][Ens-url]
+* [![Filecoin][Filecoin.io]][Filecoin-url]
+
+In the development of the Join website, we used the following technologies:
+
+
+* [![Next][Next.js]][Next-url]
+* [![Chakra][chakra-ui]][chakra-url]
+* [![Node][Node.js]][Node-url]
+
+These powerful tools and frameworks have helped us create a seamless user experience and ensure the scalability and reliability of our platform.
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED   -->
+
+# Getting Started
+
+To get started with Join, follow these steps:
+
+1. Login with your wallet on the Join website at [letsjoin.xyz](letsjoin.xyz)
+
+2. Explore the homepage to discover upcoming tech and web3 events. You can filter events by category, location, and format to find the ones that interest you.
+
+3. Click on an event to view more details such as the date, time, speakers, and description.
+
+4. Stay updated with event notifications through your preferred channels, such as email or push notifications on your mobile device.
+
+5. Engage with the Join community by participating in discussions, networking with other attendees, and sharing your experiences.
+
+That's it! You are now ready to make the most of Join and stay connected with the tech and web3 event scene.
+
+
+## Installation 
+
+To get started with Join installation, follow these steps:
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/sheva323/JOIN
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd join
+   ```
+3. Install the necessary dependencies:
+   ```js
+   npm install
+   ```
+4.  Configure the environment variables:
+  * Rename the .env.example file to .env.
+  * Open the .env file and fill in the required configuration values.
+5. Start the development server:
+    ```js
+   npm run dev
+   ```
+6. Open your web browser and visit http://localhost:3000 to access the Join application.
+
+Please note that the above steps assume you have Node.js and npm (Node Package Manager) installed on your machine.
+
+Enjoy using Join and stay connected with the exciting world of tech and web3 events!
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+
+# Usage
+
+Acá va el demo en video y un par de bundles
+
+<!--Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+# Roadmap
+
+
+- [x] Event reminder scheduling
+- [x] Event filtering by date: today, weekend, next week
+- [x] Dev tooling for loading fixtures on Polygon
+- [x] Aggregated event visualization across different platforms
+- [x] Gasless transactions
+- [ ] Add Protocol of Events (content-agnostic)
+- [ ] DAO Suit Tooling
+- [ ] Payment Method
+- [ ] Decentralized Mentoring
+- [ ] SDK for easily creating events from any source
+- [ ] After an event is completed, update with links to recordings, slides, repositories, or other historical resources. This allows users to look back in time and view events on-demand, having all the related resources in one place.
+- [ ] Community events incentives for creating events, updating a past event with recording links, reporting events with malicious or incorrect information, etc.
+
+
+
+See the [open issues](https://github.com/sheva323/JOIN/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+
+# Contributing
+
+
+<!--
+
+## 🤔 How to contribute
+
+**Follow the steps below**
+
+```bash
+# Create a branch with your feature
+$ git checkout -b your-feature
+
+# Make the commit with your changes
+$ git commit -m 'feat: Your new feature'
+
+# Send the code to your remote branch
+$ git push origin your-feature
+```
+
+After your pull request is merged, you can delete your branch
+-->
+
+At Join, we believe that contributions from the open-source community are what make our project truly amazing. We appreciate any contributions you make and welcome your ideas, suggestions, and enhancements.
+
+If you have a suggestion or improvement that would help make Join even better, here's how you can contribute:
+
+1. Fork the Project
+2. Create a new branch for your feature or enhancement (`git checkout -b feature/JOIN`).
+3. Commit your Changes (`git commit -m 'Add some JOIN'`)
+4. Push to the Branch (`git push origin feature/JOIN`)
+5. Open a Pull Request to submit your changes.
+
+We also encourage you to open an issue with the "enhancement" tag if you have any ideas or suggestions that you'd like to discuss with the community.
+
+Thank you for being part of the Join community and for helping us make a difference!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+# License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+
+# Contact
+
+Push Chat Contact: [letsjoin.eth](https://app.push.org/chat)
+<br />
+Project Link: [JOIN Github](https://github.com/sheva323/JOIN)
+<br />
+
+<br />
+
+
+### Join Team
+
+<br />
+
+Sebastian Guaqueta - [@scguaquetam](https://twitter.com/scguaquetam) - sheva3232@gmail.com
+<br />
+Angela Ocando - [@ocandocrypto](https://twitter.com/ocandocrypto) - ocandocrypto@gmail.com
+<br />
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+# Acknowledgments
+
+We would like to express our gratitude to the following resources that have been invaluable in the development of Join:
+
+* [Push Protocol Docs](https://docs.push.org/hub/)
+* [Polybase Docs](https://polybase.xyz/docs/introduction)
+* [Spheron Docs](https://docs.spheron.network/)
+* [ENS Docs](https://docs.ens.domains/)
+* [NFT.Storage Docs](https://nft.storage/docs/)
+* [Filecoin Docs](https://docs.filecoin.io/)
+
+These resources have provided valuable insights, tools, and inspiration throughout the development process. We appreciate their contributions to the web development community.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ## 💻 Getting started
 
 ### Requirements
 
@@ -66,20 +304,52 @@ $ yarn
 # Run the web app
 $ yarn start
 ```
+-->
 
-## 🤔 How to contribute
 
-**Follow the steps below**
 
-```bash
-# Create a branch with your feature
-$ git checkout -b your-feature
+<!-- MARKDOWN LINKS  -->
 
-# Make the commit with your changes
-$ git commit -m 'feat: Your new feature'
+[contributors-shield]: https://img.shields.io/github/contributors/sheva323/IstanbulHackathon.svg?style=for-the-badge&color=yellow
+[contributors-url]: https://github.com/sheva323/IstanbulHackathon/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/sheva323/IstanbulHackathon.svg?style=for-the-badge&color=blue
+[forks-url]: https://github.com/sheva323/IstanbulHackathon/network/members
+[stars-shield]: https://img.shields.io/github/stars/sheva323/IstanbulHackathon.svg?style=for-the-badge&color=yellow
+[stars-url]: https://github.com/sheva323/IstanbulHackathon/stargazers
+[issues-shield]: https://img.shields.io/github/issues/sheva323/IstanbulHackathon.svg?style=for-the-badge&color=blue
+[issues-url]: https://github.com/sheva323/IstanbulHackathon/issues
 
-# Send the code to your remote branch
-$ git push origin your-feature
-```
+<!-- 
+[license-shield]: https://img.shields.io/github/license/sheva323/JOIN.svg?style=for-the-badge
+[license-url]: https://github.com/sheva323/JOIN/blob/main/LICENSE.txt -->
 
-After your pull request is merged, you can delete your branch
+<!-- IMAGES -->
+
+[product-screenshot]: images/product.png
+
+<!-- SPONSORS -->
+
+[Polybase.xyz]:https://img.shields.io/badge/Polybase-FFFFFF?style=for-the-badge&logo=polybase&logoColor=black
+[Polybase-url]:https://polybase.xyz
+[Push.org]:https://img.shields.io/badge/push-e03dc1?style=for-the-badge&logo=push&logoColor=white
+[Push-url]:https://push.org
+[NFT.Storage]:https://img.shields.io/badge/nft.storage-EE4116?style=for-the-badge&logo=nftdotstorage&logoColor=white
+[NFT-url]:https://nft.storage
+[Spheron.network]:https://img.shields.io/badge/spheron-0000ff?style=for-the-badge&logo=spheron&logoColor=blue
+[Spheron-url]:https://spheron.network/
+[Ens.domains]:https://img.shields.io/badge/ens-4f81fe?style=for-the-badge&logo=ens&logoColor=blue
+[Ens-url]:https://ens.domains/
+[Filecoin.io]:https://img.shields.io/badge/filecoin-40bec8?style=for-the-badge&logo=filecoin&logoColor=blue
+[Filecoin-url]:https://filecoin.io/
+
+<!-- TOOLS AND FRAMEWORKS  -->
+
+
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[chakra-ui]:https://img.shields.io/badge/chakra-2ABFB3?style=for-the-badge&logo=chakraui&logoColor=white
+[chakra-url]:https://chakra-ui.com
+[Node.js]:https://img.shields.io/badge/node.js-333333?style=for-the-badge&logo=nodedotjs&logoColor=689F63
+[Node-url]:https://nodejs.org/en
+
+<!-- We're back, booom> -->
