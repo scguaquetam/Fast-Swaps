@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/sheva323/IstanbulHackathon">
-    <img src="images/Bannercover.png" alt="Logo" width="1500" height="220">
+    <img src="images/Bannercover.png" alt="Logo" width="1200" height="220">
   </a>
 
  <h3 align="center">The best way to get into crypto. Let's swap ⚡️</h3>
