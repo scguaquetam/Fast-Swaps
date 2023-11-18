@@ -169,15 +169,15 @@ If you have a suggestion or improvement that would help make Join even better, h
 1. Fork the project
 2. Create a new branch for your feature or enhancement
    ```sh
-  $ git checkout -b feature/IstanbulHackaton
+    $ git checkout -b feature/IstanbulHackaton
    ```
 3. Make the commit with your changes
    ```sh
-  $ git commit -m 'Add some IstanbulHackaton
+    $ git commit -m 'Add some IstanbulHackaton
    ```
 4. Send the code to your remote branch
    ```sh
-  $ git push origin feature/IstanbulHackaton
+    $ git push origin feature/IstanbulHackaton
    ```
 5. Open a Pull Request to submit your changes
 
@@ -221,7 +221,7 @@ Felipe Marin - [@felipemarinWeb3](https://twitter.com/felipemarinWeb3) - luisf.m
 
 # Acknowledgments
 
-We would like to express our gratitude to the following resources that have been invaluable in the development of FastSwaps:]
+We would like to express our gratitude to the following resources that have been invaluable in the development of FastSwaps:
 
 BOS Docs
 CELO Docs
