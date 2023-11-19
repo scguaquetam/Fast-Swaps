@@ -24,10 +24,12 @@
 
   [Eth Global Istanbul 2023 Hackaton Project](https://ethglobal.com/events/istanbul)
 
+   <!--
+
   <a href="#-about-the-project">View the Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Report a Bug</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Request a Feature</a>&nbsp;&nbsp;&nbsp;
-   <!--
+  
     <a href="https://github.com/sheva323/IstanbulHackathon">View Demo</a>
     -->
   </p>
@@ -46,12 +48,9 @@
 2. [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-3. [Usage](#usage)
+3. [Contact](#contact)
 4. [Roadmap](#roadmap)
-5. [Contributing](#contributing)
-6. [Licence](#license)
-7. [Contact](#contact)
-8. [Acknowledgments](#acknowledgments)
+
 
 <br />
 
@@ -85,15 +84,10 @@ A validation endpoint ensures sufficient liquidity on one side before providing 
 Users send funds to the provided wallet address. A centralized watcher (for the hackathon MVP) monitors the transaction.
 
 4. **Watcher Functionality:**
-The watcher validates the incoming transaction and extracts liquidity from the other network. Using the Cow Protocol, it executes swaps, facilitating the finalization of the transaction and enabling the user to receive the funds.
+The watcher validates the incoming transaction and extracts liquidity from the other network. Using the Cow Protocol and Uniswap V4, it executes swaps, broadening the scope of available options for users. Additionally, CELO is incorporated into the process, utilizing addresses used in transaction processes. CELO returns 50% of the generated YIELD from our pools annually, serving as an incentivized reward for ecosystem engagement.
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-Acá va el demo en video y un par de bundles
+<!--  AQUÍ VA EL DEMOOOO -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -106,31 +100,47 @@ FastSwaps is proudly supported by the following sponsors:
 
 **Frontend Deployment:**
 
-Deployed using Near BOS, our frontend interfaces with three endpoints critical for watcher functionality and validating liquidity pools to execute transactions securely.
+[![NEAR][NEAR.org]][NEAR-url]
 
-[![Polybase][Polybase.xyz]][Polybase-url]
+Deployed using Near BOS, our frontend interfaces with three endpoints critical for watcher functionality and validating liquidity pools to execute transactions securely.
 
 <!-- Comment de Uso de NEAR BOS -->
 
 **Protocol and Networks:**
-Cow Protocol hooks are utilized for swaps, showcasing the proof of concept on Gorli and Polygon networks during the hackathon.
 
-[![Push][Push.org]][Push-url]
+
+[![Uniswap][Uniswap.org]][Uniswap-url]
+
+<!-- 
+[![Push][Push.org]][Push-url] Cow
+[![Push][Push.org]][Push-url] -->
+
+
+Cow Protocol and Uniswap V4 are employed for swaps, demonstrating versatility on Gorli, Polygon, and CELO networks during the hackathon.
+
+You can check web3 and protocol integratiosn in this repo and partners detail explanation:
+
+https://github.com/jonthdiaz/fastSwaps
 
 
 <!-- Comment de Uso de Cow Swap e info de repo -->
 
 **User Experience and Design:**
 
+[![NFT.STORAGE][NFT.Storage]][NFT-url]
+
 The project prioritizes an enhanced user experience and design through Nouns style and vibes.
 
-[![NFT.STORAGE][NFT.Storage]][NFT-url]
+This is just an example of how we implement Nouns Vibes using Lil Noun Asset Library on Figma to build the design prototype ⚡️ 
+
+ <a href="https://github.com/sheva323/IstanbulHackathon">
+    <img src="images/nouns.jpeg" alt="Logo" width="2000" height="500">
+  </a>
 
 
 <!-- Comment de presentación y rcueros usadodsS -->
 
-By implementing this decentralized cross-chain exchange, we aim to revolutionize the way users transfer funds across networks, ensuring security, efficiency, and a user-friendly experience.
-
+By implementing this decentralized cross-chain exchange with expanded protocol support, including Uniswap V4 and CELO, we revolutionize the way users transfer funds across networks. Our approach ensures security, efficiency, and accessibility across diverse platforms, while the CELO integration provides an attractive annual incentive for users engaging with our ecosystem.
 
 In the development of the FastSwaps, we used the following technologies:
 
@@ -167,87 +177,35 @@ That's it!. The best way to get into crypto.
 
 ## Installation 
 
-To get started with Join installation, follow these steps:
+To get started with FastSwaps installation, follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/sheva323/IstanbulHackaton
+   git clone https://github.com/jonthdiaz/fastSwaps
    ```
 2. Navigate to the project directory:
    ```sh
-   cd IstanbulHackaton
+   cd fastSwaps
    ```
 3. Install the necessary dependencies:
    ```js
-   npm install
+   docker compose up
    ```
 4.  Configure the environment variables:
   * Rename the .env.example file to .env.
   * Open the .env file and fill in the required configuration values.
-5. Start the development server:
-    ```js
-   npm run dev
-   ```
-6. Open your web browser and visit http://localhost:3000 to access the Join application.
+5. Open your web browser and visit http://localhost:3000 to access the Join application.
 
-Please note that the above steps assume you have Node.js and npm (Node Package Manager) installed on your machine.
+Please note that the above steps assume you have Docker and Docker Compose installed on your machine.
 
 Enjoy using FastSwaps and stay connected with the exciting world of tech and web3 events!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-At FastSwaps, we believe that contributions from the open-source community are what make our project truly amazing. We appreciate any contributions you make and welcome your ideas, suggestions, and enhancements.
-
-If you have a suggestion or improvement that would help make Join even better, here's how you can contribute:
-
-1. Fork the project
-2. Create a new branch for your feature or enhancement
-   ```sh
-    $ git checkout -b feature/IstanbulHackaton
-   ```
-3. Make the commit with your changes
-   ```sh
-    $ git commit -m 'Add some IstanbulHackaton
-   ```
-4. Send the code to your remote branch
-   ```sh
-    $ git push origin feature/IstanbulHackaton
-   ```
-5. Open a Pull Request to submit your changes
-
-We also encourage you to open an issue with the "enhancement" tag if you have any ideas or suggestions that you'd like to discuss with the community.
-
-Thank you for being part of the FastSwaps community and for helping us make a difference!
-
-
-<!-- ROADMAP -->
-# Roadmap
-
-Today through FastSwaps we to send tokens effortlessly from one network to another, without the need to connect your wallet direct and without no KYC.
-
-As working Plan
-
-- [] Telegram integration
-- [] More rollups aggregators and token support
-- [] More rollups aggregators and token support
-- [] Push notification and chat integration to connect with team
-- [ ] Off-chain ramps
-
-See the [open issues](https://github.com/sheva323/IstanbulHackaton/issues) for a full list of proposed features (and known issues).
-
-And with the vision to  make crypto more accessible and inclusive, simplifying the complexities associated with cross-chain transactions.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- CONTACT -->
 
-### FastSwaps Team
+# FastSwaps Team
 
 Angela Ocando - [@ocandocrypto](https://twitter.com/ocandocrypto) - ocandocrypto@proton.me - PM 
 <br />
@@ -261,7 +219,7 @@ Felipe Marin - [@felipemarinWeb3](https://twitter.com/felipemarinWeb3) - luisf.m
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS 
 
 # Acknowledgments
 
@@ -283,6 +241,27 @@ Gnosis Chain Docs
 * [Filecoin Docs](https://docs.filecoin.io/)
 
 These resources have provided valuable insights, tools, and inspiration throughout the development process. We appreciate their contributions to the web development community.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+-->
+
+<!-- ROADMAP -->
+# Roadmap
+
+Today through FastSwaps we to send tokens effortlessly from one network to another, without the need to connect your wallet direct and without no KYC.
+
+As working Plan
+
+- [] Telegram integration
+- [] More rollups aggregators and token support
+- [] More rollups aggregators and token support
+- [] Push notification and chat integration to connect with team
+- [ ] Off-chain ramps
+
+See the [open issues](https://github.com/sheva323/IstanbulHackaton/issues) for a full list of proposed features (and known issues).
+
+And with the vision to  make crypto more accessible and inclusive, simplifying the complexities associated with cross-chain transactions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -308,8 +287,12 @@ These resources have provided valuable insights, tools, and inspiration througho
 
 <!-- SPONSORS -->
 
-[Polybase.xyz]:https://img.shields.io/badge/Polybase-FFFFFF?style=for-the-badge&logo=polybase&logoColor=black
-[Polybase-url]:https://polybase.xyz
+[NEAR.org]:https://img.shields.io/badge/Near-FFFFFF?style=for-the-badge&logo=near&logoColor=black
+[NEAR-url]:https://near.org/
+[Uniswap.org]:https://img.shields.io/badge/Uniswap-e03dc1?style=for-the-badge&logo=push&logoColor=white
+[Uniswap-url]:https://docs.uniswap.org/
+[Push.org]:https://img.shields.io/badge/push-e03dc1?style=for-the-badge&logo=push&logoColor=white
+[Push-url]:https://push.org
 [Push.org]:https://img.shields.io/badge/push-e03dc1?style=for-the-badge&logo=push&logoColor=white
 [Push-url]:https://push.org
 [NFT.Storage]:https://img.shields.io/badge/nft.storage-EE4116?style=for-the-badge&logo=nftdotstorage&logoColor=white
