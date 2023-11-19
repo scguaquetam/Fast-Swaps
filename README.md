@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/sheva323/IstanbulHackathon">
-    <img src="images/Bannercover.png" alt="Logo" width="1200" height="220">
+    <img src="images/Banner.jpg" alt="Logo" width="2000" height="300">
   </a>
 
  <h3 align="center">The best way to get into crypto. Let's swap ⚡️</h3>
@@ -65,9 +65,28 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 <br /> -->
 
-Welcome to FastSwaps, we are a team dedicated to providing users with a secure and user-friendly experience for transferring tokens across blockchain networks. Our mission is to make crypto more accessible and inclusive, and we believe in simplifying the complexities associated with cross-chain transactions.
+First mobile cross-chain exchange. Our platform empowers users to send tokens effortlessly from one network to another, all within the familiar environment your phone, eliminating the need to connect your wallet directly.
 
-FastSwaps is designed to facilitate seamless token transfers across various blockchain networks using a scalable rollup-to-rollup approach. Our platform empowers users to send tokens effortlessly from one network to another, all within the familiar environment of a Telegram pop-up, eliminating the need to connect your wallet directly. This not only enhances user convenience but also ensures a higher level of security, allowing individuals to navigate the crypto world with ease.
+By eliminating the need for direct wallet connections, FastSwaps not only enhances user convenience but also prioritizes security, providing a seamless and secure gateway for individuals to navigate the crypto world with ease.
+
+The entire process is outlined in the following diagram: 
+
+<img src="images/about.png" alt="Logo" width="1000" height="200">
+
+## Process Explanation:
+
+1. **User Initiation:**
+Users select the destination for their funds without the need for a connected wallet.
+
+2. **Endpoint Validation:**
+A validation endpoint ensures sufficient liquidity on one side before providing the user with the destination address. Simultaneously, it generates wallet and swap information for user execution.
+
+3. **User Transaction:**
+Users send funds to the provided wallet address. A centralized watcher (for the hackathon MVP) monitors the transaction.
+
+4. **Watcher Functionality:**
+The watcher validates the incoming transaction and extracts liquidity from the other network. Using the Cow Protocol, it executes swaps, facilitating the finalization of the transaction and enabling the user to receive the funds.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -76,34 +95,54 @@ FastSwaps is designed to facilitate seamless token transfers across various bloc
 
 Acá va el demo en video y un par de bundles
 
-<!--Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 # Built With
 
+
 FastSwaps is proudly supported by the following sponsors:
 
-* [![Polybase][Polybase.xyz]][Polybase-url]
-* [![Push][Push.org]][Push-url]
-* [![NFT.STORAGE][NFT.Storage]][NFT-url]
-* [![Spheron][Spheron.network]][Spheron-url]
-* [![ENS][Ens.domains]][Ens-url]
-* [![Filecoin][Filecoin.io]][Filecoin-url]
+**Frontend Deployment:**
 
-* uniswap V4
-* Cow Swap
-* 1Inch API 
+Deployed using Near BOS, our frontend interfaces with three endpoints critical for watcher functionality and validating liquidity pools to execute transactions securely.
 
-In the development of the FastSwaps website and telegram pop-up integration, we used the following technologies:
+[![Polybase][Polybase.xyz]][Polybase-url]
+
+<!-- Comment de Uso de NEAR BOS -->
+
+**Protocol and Networks:**
+Cow Protocol hooks are utilized for swaps, showcasing the proof of concept on Gorli and Polygon networks during the hackathon.
+
+[![Push][Push.org]][Push-url]
+
+
+<!-- Comment de Uso de Cow Swap e info de repo -->
+
+**User Experience and Design:**
+
+The project prioritizes an enhanced user experience and design through Nouns style and vibes.
+
+[![NFT.STORAGE][NFT.Storage]][NFT-url]
+
+
+<!-- Comment de presentación y rcueros usadodsS -->
+
+By implementing this decentralized cross-chain exchange, we aim to revolutionize the way users transfer funds across networks, ensuring security, efficiency, and a user-friendly experience.
+
+
+In the development of the FastSwaps, we used the following technologies:
 
 
 * [![Next][Next.js]][Next-url] | React
 * [![Chakra][chakra-ui]][chakra-url] | BOS Near
 * [![Node][Node.js]][Node-url]
+
+Node.js 
+Mongo BD
+CELO
+
 
 These powerful tools and frameworks have helped us create a seamless user experience and ensure the scalability and reliability of our platform.
 
@@ -189,14 +228,19 @@ Thank you for being part of the FastSwaps community and for helping us make a di
 <!-- ROADMAP -->
 # Roadmap
 
+Today through FastSwaps we to send tokens effortlessly from one network to another, without the need to connect your wallet direct and without no KYC.
 
-- [x] Telegram integration
-- [x] Push notification and chat integration to connect with team
-- [x] Cross-chain swaps execution
-- [ ] More rollups aggregators and token support
+As working Plan
+
+- [] Telegram integration
+- [] More rollups aggregators and token support
+- [] More rollups aggregators and token support
+- [] Push notification and chat integration to connect with team
 - [ ] Off-chain ramps
 
 See the [open issues](https://github.com/sheva323/IstanbulHackaton/issues) for a full list of proposed features (and known issues).
+
+And with the vision to  make crypto more accessible and inclusive, simplifying the complexities associated with cross-chain transactions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,13 +249,13 @@ See the [open issues](https://github.com/sheva323/IstanbulHackaton/issues) for a
 
 ### FastSwaps Team
 
-Angela Ocando - [@ocandocrypto](https://twitter.com/ocandocrypto) - ocandocrypto@proton.me
+Angela Ocando - [@ocandocrypto](https://twitter.com/ocandocrypto) - ocandocrypto@proton.me - PM 
 <br />
-Sebastian Guaqueta - [@scguaquetam](https://twitter.com/scguaquetam) - sheva3232@gmail.com
+Sebastian Guaqueta - [@scguaquetam](https://twitter.com/scguaquetam) - sheva3232@gmail.com - Frontend
 <br />
-Jonathan Diaz - [@jontdiaz](https://twitter.com/jonthdiaz) - JonthDiaz@gmail.com
+Jonathan Diaz - [@jontdiaz](https://twitter.com/jonthdiaz) - JonthDiaz@gmail.com - Backend 
 <br />
-Felipe Marin - [@felipemarinWeb3](https://twitter.com/felipemarinWeb3) - luisf.maring0910@gmail.com
+Felipe Marin - [@felipemarinWeb3](https://twitter.com/felipemarinWeb3) - luisf.maring0910@gmail.com - Smart Contract Developer
 <br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
