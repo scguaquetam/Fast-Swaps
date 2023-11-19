@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/sheva323/IstanbulHackathon">
-    <img src="images/Banner.jpg" alt="Logo" width="2000" height="300">
+    <img src="images/Banner.jpg" alt="Logo" width="2000" height="500">
   </a>
 
  <h3 align="center">The best way to get into crypto. Let's swap ⚡️</h3>
@@ -71,7 +71,7 @@ By eliminating the need for direct wallet connections, FastSwaps not only enhanc
 
 The entire process is outlined in the following diagram: 
 
-<img src="images/about.png" alt="Logo" width="1000" height="200">
+<img src="images/about.png" alt="Logo" width="1000" height="300">
 
 ## Process Explanation:
 
