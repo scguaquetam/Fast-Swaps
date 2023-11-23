@@ -44,6 +44,7 @@ const readStatusTx = async () => {
   console.log("starting task", intervalId);
   computeResults();
 };
+
 const computeResults = async () => {
   const result = async () => {
     fetchAlgoliaData().then((res) => {
